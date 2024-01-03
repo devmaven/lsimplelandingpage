@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-color: rgb(252, 252, 252);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    width: 100%
+}
+
+.upper {
+
+    display: flex;
+    justify-content: center;
+
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+
+}
+
+.middle {
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: auto;
+
+    height: 350px;
+    width: 60%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.lower {
+
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.color-box {
+    position: absolute;
+    top: 0;
+    height: 0px;
+    width: 0px;
+    border-left: 0vh solid transparent;
+    border-right: 100vw solid transparent;
+    border-bottom: 100vh solid pink;
+    z-index: 10;
+
+
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    z-index: 11;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
